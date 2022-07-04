@@ -25,6 +25,7 @@ body {
     display: flex;
     background-image: url(top-banner.png);
     background-repeat: no-repeat;
+    margin-bottom: 150px;
 }
 
 .banner-text {
@@ -57,3 +58,35 @@ body {
 }
 
 /* banner area ends */
+
+
+
+/* dream-big-area starts */
+.dream-big-area {
+    display: flex;
+    margin-bottom: 150px;
+    background-image: url(dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+.dream-big-text .dream-h2 {
+    font-size: 40px;
+}
+
+.dream-big-img {
+    width: 50%;
+    margin-left: 5%;
+}
+
+.dream-big-img img {
+    width: 80%;
+}
+
+.dream-big-text {
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 10%;
+}
+
+/* dream-big-area ends */
