@@ -1,0 +1,59 @@
+/* Universals */
+h1 {
+    font-size: 50px;
+}
+
+span {
+    color: orange;
+}
+
+p {
+    text-align: justify;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+/* Universals */
+
+
+
+/* banner area starts */
+.banner-section {
+    display: flex;
+    background-image: url(top-banner.png);
+    background-repeat: no-repeat;
+}
+
+.banner-text {
+    width: 50%;
+    margin-left: 5%;
+    margin-top: 1%;
+}
+
+.banner-img {
+    width: 50%;
+    margin-left: 5%;
+    margin-top: 1%;
+}
+
+.banner-img img {
+    width: 80%;
+}
+
+.hire-me-btn {
+    text-decoration: none;
+    background-image: linear-gradient(tomato, rgb(224, 150, 137));
+    padding: 10px 30px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bolder;
+}
+
+.hire-me-btn:hover {
+    box-shadow: 5px 5px 25px black;
+}
+
+/* banner area ends */
