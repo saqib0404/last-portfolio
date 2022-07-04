@@ -1,6 +1,6 @@
 /* Universals */
 h1 {
-    font-size: 50px;
+    font-size: 60px;
 }
 
 span {
@@ -9,6 +9,8 @@ span {
 
 p {
     text-align: justify;
+    font-size: 20px;
+
 }
 
 body {
@@ -32,6 +34,10 @@ body {
     width: 50%;
     margin-left: 5%;
     margin-top: 1%;
+}
+
+.banner-text h3 {
+    font-size: 28px;
 }
 
 .banner-img {
@@ -90,3 +96,61 @@ body {
 }
 
 /* dream-big-area ends */
+
+
+
+/* experience starts */
+.experience-area {
+    background-image: url(exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    margin-bottom: 150px;
+}
+
+.exp-h2 {
+    font-size: 48px;
+    margin-left: 2%;
+}
+
+.cards {
+    display: flex;
+}
+
+.crd-h2 {
+    font-size: 40px;
+}
+
+.crd-h3 {
+    font-size: 30px;
+}
+
+.card1 {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 30px gray;
+    padding: 15px;
+    border-radius: 5px;
+    border-top: solid 7px blue;
+    padding-bottom: 50px;
+}
+
+.card2 {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 30px gray;
+    padding: 15px;
+    border-radius: 5px;
+    border-top: solid 7px tomato;
+    padding-bottom: 50px;
+}
+
+/* experience endss */
+
+
+
+footer {
+    font-size: 20px;
+    text-align: center;
+}
